@@ -1,0 +1,47 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/hall/hall",
+    "pages/good/good",
+    "pages/sort/sort",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "易知Blog",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true
+   
+  },
+  "tabBar": {
+    "list":[
+      {
+        "text": "大厅",
+        "iconPath": "/icon/hall.png",
+        "pagePath": "pages/hall/hall",
+        "selectedIconPath": "/icon/_hall.png"
+      },
+      {
+        "text": "优选",
+        "iconPath": "/icon/good.png",
+        "pagePath": "pages/good/good",
+        "selectedIconPath": "/icon/_good.png"
+      },
+      {
+        "text": "分类",
+        "iconPath": "/icon/sort.png",
+        "pagePath": "pages/sort/sort",
+        "selectedIconPath": "/icon/_sort.png"
+      },
+      {
+      "text": "我的",
+      "iconPath": "/icon/my.png",
+      "pagePath": "pages/index/index",
+      "selectedIconPath": "/icon/_my.png"
+    }
+  ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

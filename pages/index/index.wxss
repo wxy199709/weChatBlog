@@ -1,0 +1,30 @@
+/**index.wxss**/
+.userinfo-avatar {
+  overflow: hidden;
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.longinContainer {
+  display: flex;
+  background-color: #fdfeff;
+  padding: 20rpx 0;
+  border-top: 1rpx solid #e4e4e4;
+  border-bottom: 1rpx solid #e4e4e4;
+  border-radius: 20px;
+  box-shadow: 2px 2px 1px 1px #5b4949;
+}
+.longinTest{
+  margin-top: 28px;
+  margin-left: 8px;
+  font-size: 35rpx;
+  line-height: 30rpx;
+  color: #830e0e;
+}
+.bodyTest{
+  margin-top: 30px;
+  background-color: #fdfeff;
+
+}

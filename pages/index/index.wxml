@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="longinContainer" wx:if="{{!showLogin}}">
+    <view>
+      <image src="../../icon/head.png" class="userinfo-avatar"></image>
+    </view>
+    <view class="longinTest">未登录</view>
+    </view>
+  <view class="bodyTest">
+    <view style="margin-top:15px;margin-left:8px;padding-bottom: 15px; border-bottom: solid 1px rgba(192, 188, 190, 0.72)">我的主页</view>
+    <view style="margin-top:15px;margin-left:8px;padding-bottom: 15px; border-bottom: solid 1px rgba(192, 188, 190, 0.72)">我要创作</view>
+    <view style="margin-top:15px;padding-bottom: 15px; border-bottom: solid 1px rgba(192, 188, 190, 0.72);margin-left:8px">我的收藏</view>
+    <view style="margin-top:15px;padding-bottom: 15px; border-bottom: solid 1px rgba(192, 188, 190, 0.72);margin-left:8px">浏览历史</view>
+    <view style="margin-top:15px;margin-left:8px">退出登录</view>
+  </view>
+
+</view>
