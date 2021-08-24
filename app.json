@@ -4,6 +4,7 @@
     "pages/hall/hall",
     "pages/good/good",
     "pages/sort/sort",
+    "pages/login/login",
     "pages/logs/logs"
   ],
   "window":{

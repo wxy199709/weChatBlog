@@ -1,0 +1,7 @@
+<!--pages/login/login.wxml-->
+<view>
+    <view>
+        <image src="../../icon/logo.png" class="image-logo"></image>
+    </view>
+</view>
+<button type="primary" plain class="button-login" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo"  formType="submit">微信账号一键登录</button>

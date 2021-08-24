@@ -1,0 +1,13 @@
+.button-login{
+    font-family: 方正舒体;
+    font-size: 30rpx;
+    width: 80%;
+    margin-top: 40px;
+}
+.image-logo{
+    overflow: hidden;
+    width: 128rpx;
+    height: 128rpx;
+    margin: 40rpx 42%;
+    border-radius: 40%;
+}

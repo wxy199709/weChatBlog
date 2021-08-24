@@ -4,7 +4,10 @@
     <view>
       <image src="../../icon/head.png" class="userinfo-avatar"></image>
     </view>
-    <view class="longinTest">未登录</view>
+    <navigator url="../login/login">
+      <view class="longinTest">未登录</view>
+    </navigator>
+
     </view>
   <view class="bodyTest">
     <view style="margin-top:15px;margin-left:8px;padding-bottom: 15px; border-bottom: solid 1px rgba(192, 188, 190, 0.72)">我的主页</view>
